@@ -1,11 +1,16 @@
-// Q4 - Write a Java program to calculate the cube of a number.
-
+import java.util.Scanner;
 public class Question4 
 {
     public static void main(String[] args) 
     {
-        int x = 4;
-        int cube = x*x*x;
-        System.out.println("The cube of "+x+" is "+cube);
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        for(int i=0;i<=x;i++)
+        {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            System.out.println(a+b);
+        }
+        sc.close();
     }
 }

@@ -1,9 +1,12 @@
-// Q2 - Print the ASCII value of character ‘U’.
-
-public class Question2
+import java.util.Scanner;
+public class Question2 
 {
     public static void main(String[] args) 
     {
-        System.out.println((int)'U');
+        Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        String b = sc.nextLine();
+        System.out.println(a+b);
+        sc.close();
     }
 }
